@@ -1,0 +1,34 @@
+-- This reservoir simulation deck is made available under the Open Database
+-- License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in
+-- individual contents of the database are licensed under the Database Contents
+-- License: http://opendatacommons.org/licenses/dbcl/1.0/
+
+-- Copyright (C) 2016 IRIS
+
+-- This simulation is based on the data given in 
+-- 'Fifth comparison of Solution Project: Evaluation of Miscible Flood Simulators' 
+-- by Killough et at. SPE16000 1987
+
+
+---------------------------------------------------------------------------
+------------------------ SPE5 - CASE 1 ------------------------------------
+---------------------------------------------------------------------------
+
+RUNSPEC
+-- -------------------------------------------------------------------------
+
+TITLE
+   SPE5 - CASE 2
+
+INCLUDE
+  'SPE5_FIXED.BASE' /
+
+INCLUDE
+ 'SPE5CASE2_WELL.BASE' /
+ 
+WSOLVENT
+'INJG'  1.0/
+/
+
+INCLUDE
+ 'SPE5CASE2.SCH'/

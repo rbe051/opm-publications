@@ -1,0 +1,10 @@
+WCONPROD
+-- Item #:1	2      3     4	   5  9
+	'PROD' 'OPEN' 'ORAT' 12000 4* 1000 /
+/
+
+WCONINJE
+-- Item #:1	 2	 3	 4	5      6  7
+	'INJW'	'WATER'	'OPEN'	'RATE'	45000 1* 2800 /
+	'INJG'	'GAS'	'OPEN'	'RATE'	30000 1* 2800 /
+/
