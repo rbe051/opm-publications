@@ -3,22 +3,17 @@
 -- individual contents of the database are licensed under the Database Contents
 -- License: http://opendatacommons.org/licenses/dbcl/1.0/
 
--- Copyright (C) 2016 IRIS
+--  Copyright (C) 2020 NORCE 
 
--- This simulation is based on the data given in 
--- 'Fifth comparison of Solution Project: Evaluation of Miscible Flood Simulators' 
--- by Killough et at. SPE16000 1987
-
-
----------------------------------------------------------------------------
------------------------- SPE5 - CASE 1 ------------------------------------
----------------------------------------------------------------------------
+--  This is the dataset used for the example in:
+--  T.H. Sandve, O. Sævareid and I. Aavatsmark: “Improved Extended Blackoil Formulation
+--  for CO2 EOR Simulations.” in ECMOR XVII – The 17th European Conference on the
+--  Mathematics of Oil Recovery,  September 2020.
 
 RUNSPEC
--- -------------------------------------------------------------------------
 
 TITLE
-   SPE5 - CASE 2
+   SPE5 - CO2EOR - CASE 2
 
 INCLUDE
   'SPE5_DYN.BASE' /

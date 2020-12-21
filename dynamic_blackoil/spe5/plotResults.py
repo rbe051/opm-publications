@@ -12,10 +12,10 @@ from datetime import timedelta
 import numpy as np
 base="SPE5CASE"
 cases=["1", "2", "3"]
-#cases=["2"]
-models=["DYN", "FIXED","SOLVENT", "E300"] #"E300"
-modelsName = ["DYNAMIC", "FIXED","STANDARD", "COMPOSITIONAL"]
-#models = ["E300"]
+#models=["DYN", "FIXED","SOLVENT", "E300"] 
+#modelsName = ["DYNAMIC", "FIXED","STANDARD", "COMPOSITIONAL"]
+models=["DYN", "FIXED","SOLVENT"] 
+modelsName = ["DYNAMIC", "FIXED","STANDARD"]
 path=""
 dir="results/"
 keys=["WOPR", "WGPR", "WWPR", "WOPT", "WGPT", "WWPT"]
