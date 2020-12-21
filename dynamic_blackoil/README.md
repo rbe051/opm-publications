@@ -13,7 +13,7 @@ To run the cases you will need Flow version 04.2021 or later.
 - CASE 3: pressure first below MMP and than above MMP
 
 ### The standard solvent model
-- SPE5CASE[-3]_SOLVENT.DATA
+- SPE5CASE[1-3]_SOLVENT.DATA
 - SPE5.BASE
 
 ### The fixed fraction PVT model
@@ -27,7 +27,7 @@ To run the cases you will need Flow version 04.2021 or later.
 - PVTSOL_HYBRID_ST00_ST02.pvt
 
 ### The composisional PVT model
-- SPE5CASE#_SOLVENT.DATA
+- SPE5CASE[1-3]_SOLVENT.DATA
 - SPE5e300PVT
 
 ### Common base files
